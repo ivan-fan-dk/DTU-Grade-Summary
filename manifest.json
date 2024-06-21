@@ -1,0 +1,23 @@
+{
+  "name": "DTU Grades Extension (Unofficial)",
+  "description": "Provide a better overview of your grades on DTU CampusNet. https://campusnet.dtu.dk/cnnet/Grades/Grades.aspx",
+  "version": "1.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {           
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "js": ["js/content.js"],
+      "matches": [
+        "https://campusnet.dtu.dk/cnnet/Grades/Grades.aspx"
+      ]
+    }
+  ]
+}

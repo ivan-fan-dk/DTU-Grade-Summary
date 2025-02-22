@@ -1,0 +1,29 @@
+#summary
+{
+    outline: medium green;
+    border-radius: 5px;   
+}
+
+.default_tr1{
+   padding: 2px 20px 2px 0px;
+}
+
+.default_tr2{
+    color: blue; 
+    text-align: left; 
+    padding: 2px;
+
+}
+
+.gradesCoursesSummary_tr1{
+   padding: 2px 20px 2px 3px;
+    /* padding-right: 20px; */
+    border: 1px solid black;
+ }
+ 
+.gradesCoursesSummary_tr2{
+    color: blue; 
+    text-align: left; 
+    border: 1px solid black;
+    padding: 3px;
+}
